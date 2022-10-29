@@ -1,0 +1,174 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    background-color: hsl(216, 50%, 16%);
+    width: 288px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 15px #0c1729;
+    padding-top: 1px;
+}
+
+.image-nft-container {
+    width: 250px;
+    height: 250px;
+    margin: 20px 20px 0 20px;
+    border-radius: 5px;
+}
+
+.image-nft-container:hover {
+    background-color: #02fdfa;
+}
+
+.image-nft {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-nft:hover {
+    opacity: 50%;
+}
+
+.image-nft:hover .view-icon {
+    display: block;
+    position: fixed;
+}
+
+.container {
+    padding-top: 5px;
+}
+
+.nft-name-container {
+    color: hsl(0, 0%, 100%);
+    font-size: 19px;
+    font-weight: 600;
+    margin: 10px 20px;
+}
+
+.nft-name {
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-name:hover {
+    color: #02fdfa;
+}
+
+.nft-description {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 10px 20px;
+}
+
+.infos-nft {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px 0px 20px;
+}
+
+.logo-nft {
+    margin-right: 0px;
+}
+
+.price-nft-container {
+    display: flex;
+    width: 100px;
+    font-weight: 400;
+}
+
+.price-nft {
+    margin-left: 5px;
+    color: #02fdfa;
+}
+
+.time-left-container {
+    display: flex;
+    width: 100px;
+}
+
+.clock-logo {
+    margin-right: 0;
+}
+
+.time-left {
+    margin-left: 5px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.bar {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 1px;
+}
+
+.author-part {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.avatar-author {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-right: 0;
+}
+
+.author-name {
+    margin-left: 10px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+}
+
+.name:hover {
+    color: #02fdfa;
+}
+
+.creation-span {
+    color: hsl(215, 51%, 70%);
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;
+    text-align: center;
+    font-size: 10px;
+    width: 100%;
+}
